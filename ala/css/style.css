@@ -1,0 +1,211 @@
+body {
+    font-family: 'Merienda';
+    font-size: 15px;
+}
+
+.navbar {
+    padding: 0;
+}
+
+.navbar-brand {
+    margin-right: 20px; /* Espacement entre le texte et l'image du logo */
+}
+
+.navbar-nav {
+    margin-left: auto; /* Place les éléments de la barre de navigation à droite */
+}
+
+.brand-text {
+    margin-right: 10px; /* Espacement entre le texte et l'image du logo */
+}
+
+.logo {
+    margin-right: 10px; /* Espacement entre le texte et l'image du logo */
+}
+
+.flag {
+    max-height: 20px;
+    max-width: 20px;
+    margin-top: 10px;
+	margin-right: 50px;
+}
+
+.nav-link.active {
+    background-color: lightgrey !important;
+}
+
+.reserve-container {
+    position: relative;
+}
+
+.card-body {
+    -webkit-transition: all 1s ease; /* Safari and Chrome */
+    -moz-transition: all 1s ease; /* Firefox */
+    -o-transition: all 1s ease; /* IE 9 */
+    -ms-transition: all 1s ease; /* Opera */
+    transition: all 1s ease;
+}
+
+.card-body:hover {
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
+}
+
+.reserve-text {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.image-reserve {
+    opacity: 0.4;
+    max-height: 750px;
+}
+
+.carousel-caption {
+    top: 50%;
+}
+
+.img-slider {
+    min-height: 320px;
+}
+
+.navMenu {
+    padding-top: 75px;
+    padding-bottom: 20px;
+}
+
+.card-img-top {
+    height: 250px;
+}
+
+.map {
+    height: 320px;
+}
+
+@media screen and (max-width: 1920px) {
+    .only-mobile {
+        visibility: hidden;
+    }
+}
+
+@media screen and (max-width: 506px) {
+    .only-mobile {
+        visibility: visible;
+    }
+}
+
+.social-icon {
+    font-size: 28;
+}
+
+/* Styles for the new section "Examples & Reviews" */
+#ExamplesAndReviews {
+    padding: 50px 0; /* Adjust padding as needed */
+}
+
+#ExamplesAndReviews .section-title {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#ExamplesAndReviews .example {
+    margin-bottom: 50px; /* Adjust margin as needed */
+}
+
+#ExamplesAndReviews .example img {
+    max-width: 100%;
+    height: auto;
+}
+
+#ExamplesAndReviews .example .stars {
+    color: gold;
+}
+
+.img-taille {
+    max-width: 100%;
+    height: auto;
+    max-height: 400px;
+}
+
+/* Styles généraux pour les sections */
+.row.bg-light {
+    padding: 20px;
+}
+
+/* Styles pour le contenu textuel */
+.row.bg-light .col-md-6 {
+    padding: 20px;
+}
+
+/* Styles spécifiques pour l'image de la section Location */
+.img-location {
+    max-width: 100%;
+    height: auto;
+    max-height: 400px;
+}
+
+/* Styles spécifiques pour l'image de la section Unique Experience */
+.img-unique-experience {
+    max-width: 100%;
+    height: auto;
+    max-height: 400px;
+    margin-right: 50px;
+}
+
+/* Styles spécifiques pour l'image de la section A Beef Lover's Paradise */
+.img-beef-lover {
+    max-width: 100%;
+    height: auto;
+    max-height: 400px;
+}
+
+/* Styles spécifiques pour l'image de la section Cuisine */
+.img-cuisine {
+    max-width: 100%;
+    height: auto;
+    max-height: 550px;
+    margin-left: 25px;
+}
+
+/* Styles pour les titres des sections */
+h3 {
+    color: #333;
+}
+
+/* Styles pour les sous-titres */
+h5 {
+    color: #555;
+}
+
+/* Styles pour les titres du carrousel */
+.carousel-caption h2 {
+    text-align: center; /* Centrer le texte */
+    font-size: 90px; /* Modifier la taille de la police */
+}
+
+/* Styles pour les sous-titres du carrousel */
+.carousel-caption h3 {
+    text-align: center; /* Centrer le texte */
+    font-size: 24px; /* Modifier la taille de la police */
+}
+.video-container {
+    position: relative;
+    display: block;
+    width: 100%;
+    padding: 0;
+}
+
+.video-container video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
